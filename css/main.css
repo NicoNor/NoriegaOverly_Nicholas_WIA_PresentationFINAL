@@ -1,0 +1,62 @@
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  color: #E36E40;
+}
+  body ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 2em 0;
+    padding: 0;
+}
+  body li {
+      margin: .5em;
+      text-align: center;
+    }
+
+
+
+small {
+  display: block;
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: -5px 5px 0 rgba(0,0,0,0.05);
+  font-size: 1em;
+  padding: .5em;
+  text-align: center;
+}
+
+/* Drop down colors */
+
+.dd_ .dd_d_ .dd_sl_ ul li em,
+.dd_ .dd_d_ .dd_sl_ ul li.dd_sunday,
+.dd_ .dd_all_ ul li.dd_sunday {
+  color: #17729D !important;
+}
+
+.dd_ .dd_r_ ul li:hover,
+.dd_ .dd_r_ ul li.dd_sltd_,
+.dd_ .dd_r_ ul li {
+  border-color: #17729D !important;
+}
+
+.dd_ .dd_r_:after {
+  border-bottom-color: #17729D !important;
+}
+
+.dd_ .dd_submit,
+.dd_ .dd_r_ ul li.dd_sltd_ {
+  background-color: #17729D !important;
+}
